@@ -1,0 +1,14 @@
+{
+	"name": "dready/behat-example",
+	"description": "Behat Examples",
+	"require": {
+		"php": ">=5.3.3",
+		"behat/behat": "2.5.*@stable",
+		"behat/common-contexts": "dev-master",
+		"behat/mink": "1.5.*",
+		"behat/mink-extension": "*@dev",
+		"behat/mink-goutte-driver": "*",
+		"behat/mink-selenium2-driver": "*"
+	},
+	"minimum-stability": "stable"
+}
