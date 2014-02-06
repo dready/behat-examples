@@ -8,7 +8,8 @@
 		"behat/mink": "1.5.*",
 		"behat/mink-extension": "*@dev",
 		"behat/mink-goutte-driver": "*",
-		"behat/mink-selenium2-driver": "*"
+		"behat/mink-selenium2-driver": "*",
+		"kriswallsmith/buzz": ">=0.5"
 	},
 	"minimum-stability": "stable"
 }

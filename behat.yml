@@ -1,0 +1,17 @@
+default:
+  paths:
+    features:  behat/features
+    bootstrap: behat/bootstrap
+
+  extensions:
+      Behat\MinkExtension\Extension:
+        base_url: 'http://localhost'
+        goutte: ~
+        selenium2:
+          wd_host: mac:4444/wd/hub
+          capabilities: { "browser": "firefox", "version": "21"}
+
+  context:
+    class: FeatureContext
+    parameters:
+      base_url: 'http://localhost'
