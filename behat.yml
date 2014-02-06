@@ -14,4 +14,4 @@ default:
   context:
     class: FeatureContext
     parameters:
-      base_url: 'http://localhost'
+      base_url: 'https://api.meetup.com/'
